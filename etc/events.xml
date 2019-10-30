@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+ * Mamis.IT
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is available through the world-wide-web at this URL:
+ * http://www.mamis.com.au/licencing
+ *
+ * @category   EternityRose Sales
+ * @copyright  Copyright (c) 2016 Mamis.IT Pty Ltd (http://www.mamis.com.au)
+ * @author     Matthew Muscat <matthew@mamis.com.au>
+ * @license    http://www.mamis.com.au/licencing
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sales_order_place_after">
+        <observer name="eternityrose_sales_check_order_hold_threshold" instance="EternityRose\Sales\Observer\OrderPlaceAfter" />
+    </event>
+</config>
