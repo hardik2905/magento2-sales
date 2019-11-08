@@ -20,9 +20,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="EternityRose_Sales::eternityrose_menu" title="EternityRose Extensions" sortOrder="10" >
-                                <resource id="EternityRose_Sales::eternityrose_sales" title="EternityRose Sales" sortOrder="0" />
-                            </resource>
+                            <resource id="EternityRose_Sales::eternityrose_sales" title="EternityRose Sales" sortOrder="0" />
                         </resource>
                     </resource>
                 </resource>
